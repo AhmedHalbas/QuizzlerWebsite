@@ -1,0 +1,120 @@
+.categoriesContainer1,
+.categoriesContainer2 {
+    text-align: center;
+    /* /margin: auto; */
+}
+
+#cat1 {
+    position: absolute;
+    right: 20%;
+}
+
+#cat2 {
+    position: absolute;
+    left: 20%;
+}
+
+.category1 {
+    padding: 5%;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    display: inline-block;
+    background-color: #FFFFFF;
+    top: 33%;
+}
+
+.category2 {
+    padding: 5%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 54%;
+    left: 42%;
+}
+
+.relative {
+    position: relative;
+}
+
+#Category_Icon {
+    left: 0px;
+    right: 0px;
+    width: 200px;
+    height: 200px;
+    color: white;
+    text-align: start;
+}
+
+#Category_Icon_2 {
+    margin-top: 70px;
+    font-size: 4.5em;
+    color: yellow;
+    text-align: inherit;
+    vertical-align: middle;
+}
+
+#Category_Icon_Wrapper {
+    margin-top: 50px;
+    vertical-align: middle;
+}
+
+#music,
+#food,
+#sports {}
+
+i {
+    position: absolute;
+    margin: auto;
+    left: 27%;
+    color: #F6504F;
+    font-size: 7em;
+    text-align: center;
+    top: 70px;
+}
+
+#play,
+#eat,
+#football {
+    font-size: 10em;
+    color: darkgray;
+    display: none;
+    position: absolute;
+    right: 100%;
+    width: 100%;
+    height: 80%;
+    left: 0%;
+    top: 0%;
+    padding-top: 20%;
+    background-color: #F6504F;
+    opacity: 0.5;
+    border-radius: 50%;
+}
+
+.categoriesContainer1>p,
+.categoriesContainer2>p {
+    display: inline-block;
+    color: #FFFFFF;
+    font-family: Segoe Print;
+    font-size: 30px;
+    position: absolute;
+    top: 65%;
+}
+
+#music_text {
+    left: 25.5%;
+}
+
+#sports_text {
+    left: 46.5%;
+    top: 86%;
+}
+
+#food_text {
+    left: 67.5%;
+}

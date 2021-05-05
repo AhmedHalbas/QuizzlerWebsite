@@ -1,0 +1,55 @@
+
+body {
+    background-color: #322059;
+}
+
+#logo {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+#imLog {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-top: 10%;
+}
+
+#siteName {
+    display: inline-block;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 1%;
+    color: #FFFFFF;
+    font-family: Segoe Print;
+    font-size: 50px;
+}
+
+#login,
+#quesForm {
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    background-color: #FFFFFF;
+    margin-left: 70%;
+    position: absolute;
+    margin-top: -30%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 6px #090909;
+    margin-left: 40%;
+    margin-top: 1%;
+}
+
+::placeholder {
+    font-weight: bold;
+    text-align: center;
+}
+
+#categories_title {
+    color: #FFFFFF;
+    font-family: Segoe Print;
+    font-size: 45px;
+    text-align: center;
+    margin: 0%;
+}

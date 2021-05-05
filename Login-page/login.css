@@ -1,0 +1,90 @@
+#loginBtn {
+    border-radius: 20px;
+    width: 150px;
+    height: 30px;
+    margin-top: 10%;
+    color: #FFFFFF;
+    background-color: #F6504F;
+    border: hidden;
+    outline: none;
+}
+
+i {
+    color: #F6504F;
+    font-size: 25px;
+    margin-right: 80%;
+    margin-top: 5%;
+    display: inline;
+}
+
+#p1 {
+    display: block;
+    color: #FFFFFF;
+    position: relative;
+    font-family: Segoe Print;
+    font-size: 30px;
+    margin-left: 18%;
+}
+
+#musicWinner,
+#moviesWinner,
+#sportsWinner,
+#musicHScore,
+#sportsHScore,
+#moviesHScore {
+    position: absolute;
+    display: inline-block;
+    color: #374761;
+    margin: auto;
+    margin-left: -20%;
+    margin-top: 2%;
+    font-family: Segoe Print;
+}
+
+
+/* here */
+
+#sportsHScore,
+#musicHScore,
+#moviesHScore {
+    margin-left: -5%;
+}
+
+#scoreCard {
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+.score {
+    text-align: center;
+    display: block;
+    width: 400px;
+    height: 65px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    border: hidden;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+#lbl1,
+#lbl2 {
+    color: red;
+    font-family: Segoe Print;
+    font-size: 12px;
+    text-align: center;
+}
+
+#txtUsr,
+#txtMail {
+    text-decoration: #374761;
+    display: block;
+    margin: 3%;
+    margin-left: 20%;
+    border-radius: 5px;
+    border: hidden;
+    outline: none;
+    box-shadow: 0px 5px 0px rgb(173, 172, 172);
+    margin-top: 10%;
+}

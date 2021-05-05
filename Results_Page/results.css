@@ -1,0 +1,76 @@
+body {
+    background-color: #322059;
+}
+
+#logo {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+#playAgainBtn,#exitBtn {
+    font-size: x-large;
+    border-radius: 20px;
+    width: 300px;
+    height: 60px;
+    margin: 10%;
+    font-family: Segoe Print;
+    color: #FFFFFF;
+    background-color: #F6504F;
+    border: hidden;
+}
+
+
+
+#siteName {
+    display: inline-block;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 1%;
+    color: #FFFFFF;
+    font-family: Segoe Print;
+    font-size: 50px;
+}
+
+.categoriesContainer1{
+    text-align: center;
+    margin: auto;
+    
+
+}
+
+.category1 {
+    box-shadow: 5px 5px 6px #090909;
+    padding: 5%;
+    font-family: Segoe Print;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    background-color: #FFFFFF;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+i {
+    
+    font-size: 3em;
+    vertical-align: middle;
+    text-align: center;
+}
+
+b{
+    color: #F6504F;
+}
+
+.categoriesContainer1>p,
+.categoriesContainer2>p {
+    display: inline-block;
+    margin-left: 18%;
+    margin-right: 16%;
+    margin-top: 3%;
+    color: #FFFFFF;
+    font-family: Segoe Print;
+    font-size: 30px;
+}

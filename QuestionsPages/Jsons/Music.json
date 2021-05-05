@@ -1,0 +1,44 @@
+{
+  "results": [
+    {
+      "question": "What is the best selling album of all time from 1976 to 2018?",
+      "correct_answer": "Thriller"
+    },
+    {
+      "question": "Which band released songs such as &quot;Electric Feel&quot;, &quot;Kids&quot;, and &quot;Time to Pretend&quot;?",
+      "correct_answer": "MGMT"
+    },
+    {
+      "question": "Who is the lead singer of Silverchair?",
+      "correct_answer": "Daniel Johns"
+    },
+    {
+      "question": "The &quot;K&quot; in &quot;K-Pop&quot; stands for which word?",
+      "correct_answer": "Korean"
+    },
+    {
+      "question": "The key of sharps does the key of G# minor contain?",
+      "correct_answer": "5"
+    },
+    {
+      "question": "What musician made the song &quot;Fuckin` Perfect&quot; in 2010?",
+      "correct_answer": "Pink"
+    },
+    {
+      "question": "The song &quot;Caramelldansen&quot; is commonly mistaken as a Japanese song, what language is the song actually sung in?",
+      "correct_answer": "Swedish"
+    },
+    {
+      "question": "Which of these is not a single by Pink Floyd guitarist, David Gilmour?",
+      "correct_answer": "Sunset Strip"
+    },
+    {
+      "question": "Whose albums included &quot;Back in Black&quot; and &quot;Ballbreaker&quot;?",
+      "correct_answer": "AC DC"
+    },
+    {
+      "question": "&quot;Hallelujah&quot; is a song written by which Canadian recording artist?",
+      "correct_answer": "Leonard Cohen"
+    }
+  ]
+}

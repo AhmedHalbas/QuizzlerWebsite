@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quizzler</title>
+        <link href="../FontAwesome_Library/fontawesome-free-5.15.1-web/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" href="../style.css">
+         <link rel="stylesheet" href="high_scores.css">
+    </head>
+    <body onload="animateScoreList()">
+        <div id="header">
+            <img id="logo"src="../Images/ic_launcher-web.png">
+            <p id="siteName">Quizzler</p>
+        </div>
+           
+            <div id="container">
+              <div id="scoreCard"></div>
+                 <p id="p1">Highest Score</p>
+                <div class="score">
+            <i id="music_icon" class="fas fa-music"></i>
+            <!-- here -->
+            <p id="musicWinner"></p>
+            <!-- here -->
+            <p id="musicHScore"></p>
+
+        </div>
+
+        <div class="score">
+            <i id="burger_icon" class="fas fa-video"></i>
+            <!-- here -->
+            <p id="moviesWinner"></p>
+            <!-- here -->
+            <p id="moviesHScore"></p>
+
+        </div>
+
+        <div class="score">
+            <i id="sports_icon" class="far fa-futbol"></i>
+            <!-- here -->
+            <p id="sportsWinner"></p>
+            <!-- here -->
+            <p id="sportsHScore"></p>
+
+        </div>
+    
+              </div> 
+                 
+        
+        
+      
+            
+
+            </div>
+
+        
+        <script src="../jQueryLibrary/jQuery.js"></script>
+        <script src="../CookiesLibrary/cookieLibrary.js"></script>
+        <script src="high_scores.js"></script>
+       
+    </body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Quizzler</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap" rel="stylesheet">
+    <link href="../FontAwesome_Library/fontawesome-free-5.15.1-web/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="question.css">
+</head>
+
+<body>
+    <div id="header">
+        <a href="../Login-page/login.html">
+            <img id="logo" src="../Images/ic_launcher-web.png">
+        </a>
+        <p id="siteName">Quizzler</p>
+        <div>
+            <p id="categories_title"> </p>
+        </div>
+    </div>
+
+    <div id="quesForm">
+        <p id="quesNom">Q.<span id="num"></span></p>
+        <div id="quesContainer">
+            <!--            TODO questions-->
+            <p id="ques"></p>
+            <input type="text" id="answerText" placeholder="Guess" onkeyup="guess(900)" onkeydown="stopTime(event)">
+        </div>
+        <!--            TODO Answers-->
+        <table id="answersTable">
+            <tr>
+                <td id="cell1">baseball</td>
+
+            </tr>
+           
+
+        </table>
+
+
+
+        <input type="button" value="End Here" id="endBtn" onclick="endHere()">
+    </div>
+    
+	
+	
+	<div id="score"><h1>SCORE:</h1><p id="points">0</p></div>
+    <script src="../jQueryLibrary/jQuery.js"></script>
+    <script src="../jQueryLibrary/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+    <script src="../CookiesLibrary/cookieLibrary.js"></script>
+    <script src="questions.js"></script>
+
+</body>
+
+</html>

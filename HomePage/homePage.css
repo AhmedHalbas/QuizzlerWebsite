@@ -1,0 +1,104 @@
+body {
+	background-color: #322059;
+}
+img
+{
+	height:200;
+	width:200;
+	display: table-cell;
+	margin: auto;
+	margin-bottom: 50px;
+}
+.yellow{
+	content: url(../Images/yellow.png);}
+
+.red {
+	content: url(../Images/ic_launcher-web.png);}
+
+
+.veen {
+	width: 70%;
+	margin: 100px auto;
+	margin-top: 20px;
+	background: rgba(255, 255, 255, .5);
+	height: 400px;
+	display: table;
+	position: relative;
+	box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28);
+}
+
+.veen > div {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	color: #fff;
+}
+
+.veen button {
+	background: transparent;
+	display: inline-block;
+	padding: 10px 30px;
+	border: 3px solid #fff;
+	border-radius: 50px;
+	position: relative;
+	color: #FFF;
+	box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28);
+}
+
+.veen button.dark {
+	border-color: #322059;
+	background: #322059;
+}
+
+.veen .move button.dark {
+	border-color: #e0b722;
+	background: #e0b722;
+}
+
+.veen .splits p {
+	font-size: 18px;
+}
+
+.veen button:active {
+	box-shadow: none;
+}
+
+.veen button:focus {
+	outline: none;
+}
+
+.veen .wrapper {
+	position: absolute;
+	width: 40%;
+	height: 120%;
+	top: -10%;
+	left: 5%;
+	background: #fff;
+	box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28);
+	color: #303030;
+	overflow: hidden;
+}
+
+
+.veen .wrapper #play {
+	padding-top: 20%;
+	visibility: visible;
+}
+
+.veen .wrapper #hiscr {
+	display: none;
+}
+
+.veen .wrapper.switch #hiscr {
+	padding-top: 20%;
+
+	display: block;
+}
+
+.veen .wrapper.switch #play {
+	display: none;
+}
+
+.veen .wrapper.move {
+	left: 45%;
+}
